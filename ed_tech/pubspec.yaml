@@ -1,0 +1,26 @@
+name: ed_tech
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.15.1
+  cloud_firestore: ^4.5.1
+  firebase_auth:
+  file_picker:
+  firebase_storage:
+  video_player:
+  syncfusion_flutter_pdfviewer:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
